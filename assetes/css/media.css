@@ -1,0 +1,122 @@
+/* MOBILE */
+@media(max-width:768px){
+  /* GRID */
+  [class*="col"]{
+    width: 100%;
+  }
+  .container{margin: auto 20px !important;}
+  /* CONTACT-INFO */
+  .be-contact-info>.container>.row>.col6>.be-icon{
+    text-align: left;
+  }
+  /* NAVIGATION BAR */
+  header>nav{
+    text-align: center;
+  }
+  header>nav>ul{
+    float: none;
+  }
+  header>nav>ul.li{
+    display: block;
+  }
+  /* BANNER */
+  .be-desktop-banner, .be-tab-banner{
+    display: none;
+  }
+  .be-mobile-banner{
+    display: block;
+  }
+  .be-mobile-banner>video{
+    width: 100%;
+  }
+.be-mobile-banner{
+    position: relative;
+  }
+.be-mobile-banner>.be-banner-text{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    color: #fff;
+  }
+.be-mobile-banner>.be-banner-text>p, .be-mobile-banner>.be-banner-text>button{
+    font-size: 20px;
+  }
+.be-mobile-banner>.be-banner-text>h1{
+    font-size: 55px;
+  }
+.be-mobile-banner>.be-banner-text>button{
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #dc3748;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+.be-mobile-banner>.be-banner-text>p>span, .be-mobile-banner>.be-banner-text>h1>span{
+    color: rgb(244, 192, 12);
+  }
+}
+/* TAB */
+@media(min-width:768px) and (max-width:1200px){
+    .colTab1{width:8.33%}
+    .colTab2{width:16.66%}
+    .colTab3{width:25%}
+    .colTab4{ width: 33.33%;}
+    .colTab5{ width: 41.66%;}
+    .colTab6{ width: 50%;}
+    .colTab7{ width: 58.33%;}
+    .colTab8{ width: 66.66%;}
+    .colTab9{ width: 75%;}
+    .colTab10{ width: 83.33%;}
+    .colTab11{ width: 91.66%;}
+    .colTab12{ width: 100%;}
+
+    [class*="colTab"]{
+        float: left;
+        padding: 10px;
+    }
+    .container{margin: auto 50px !important;}
+    /* NAVIGATION BAR */
+    header>nav{
+    text-align: center;
+    }
+    header>nav>ul{
+    float: none;
+    }
+    /* TAB BANNER */  
+    .be-desktop-banner, .be-mobile-banner{
+      display: none;
+    }
+    .be-tab-banner{
+      display: block;
+    }
+    .be-tab-banner>video{
+      width: 100%;
+  }
+  .be-tab-banner{
+      position: relative;
+  }
+  .be-tab-banner>.be-banner-text{
+      position: absolute;
+      top: 25%;
+      left: 7%;
+      color: #fff;
+  }
+  .be-tab-banner>.be-banner-text>p, .be-tab-banner>.be-banner-text>button{
+      font-size: 20px;
+  }
+  .be-tab-banner>.be-banner-text>h1{
+      font-size: 55px;
+  }
+  .be-tab-banner>.be-banner-text>button{
+      padding: 20px;
+      margin: 20px auto;
+      background-color: #dc3748;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+  }
+  .be-tab-banner>.be-banner-text>p>span, .be-tab-banner>.be-banner-text>h1>span{
+      color: rgb(244, 192, 12);
+  }
+}
